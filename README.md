@@ -1,4 +1,4 @@
-## project made in practice at "Sber"
+## Project made in practice at "Sber"
 #### To make everything work correctly, you need to:
 #### Set the database login:
 ###### user: "root"
