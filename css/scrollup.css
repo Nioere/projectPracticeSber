@@ -1,0 +1,39 @@
+@media screen and (min-width: 1500px) {
+div.scrollup {
+    z-index: 3;
+    position: fixed; /* фиксированная позиция */
+    color: #fff; /* цвет текста */
+    background-color: rgba(11, 20, 25, 0.9); /* цвет заднего фона */
+    right: 100px; /* расстояние от правого края */
+    bottom: 0px; /* расстояние от нижнего края */
+    padding: 15px 22px; /* отступы до содержимого блока */
+    font-size: 20px; /* размер шрифта (иконки) */
+    border-radius: 4px 4px 0px 0px;
+    cursor: pointer; /* форма курсора */
+    display: none; /* не отображать элемент */
+    text-align: center; /*выравнивание содержимого элемента по центру */
+  }
+  div.scrollup:hover {
+    background-color: #000; /* цвет заднего фона при наведении */
+  }
+}
+
+@media screen and (max-width: 1499px) {
+    div.scrollup {
+        z-index: 3;
+        position: fixed; /* фиксированная позиция */
+        color: #fff; /* цвет текста */
+        background-color: rgba(11, 20, 25, 0.9); /* цвет заднего фона */
+        right: 15px; /* расстояние от правого края */
+        top: 0px;
+        padding: 8px 18px; /* отступы до содержимого блока */
+        font-size: 20px; /* размер шрифта (иконки) */
+        border-radius: 0px 0px 4px 4px;
+        cursor: pointer; /* форма курсора */
+        display: none; /* не отображать элемент */
+        text-align: center; /*выравнивание содержимого элемента по центру */
+      }
+      div.scrollup:hover {
+        background-color: #000; /* цвет заднего фона при наведении */
+      }
+    }
